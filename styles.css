@@ -1115,3 +1115,22 @@ button:hover,
     background: #555 !important;
     transform: none !important;
 }
+
+/* ============================================
+   DESCRIPCIÓN EXPANDIBLE
+   ============================================ */
+.desc-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #FF6B35;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.desc-toggle:hover {
+    text-decoration: underline;
+}
