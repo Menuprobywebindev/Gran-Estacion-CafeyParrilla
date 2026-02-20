@@ -1,0 +1,344 @@
+[
+    {
+        "id": 1,
+        "name": "Entradas",
+        "icon": "🥟",
+        "products": [
+            {
+                "id": "empa-1",
+                "name": "Platos empanadas x 4",
+                "description": "",
+                "price": 14000,
+                "icon": "🥟"
+            }
+        ]
+        
+    },
+    {
+        "id": 2,
+        "name": "Hamburguesas",
+        "icon": "🍔",
+        "products": [
+            {
+                "id": "burger-1",
+                "name": "Hamburguesa sencilla",
+                "description": "Pan brioche, 200gr de carne artesanal , queso,lechuga, tomate, cebolla, pepinillos, salsa de la casa, papas en cascos.",
+                "price": 23000,
+                "icon": "🍔"
+            },
+            {
+                "id": "burger-2",
+                "name": "Hamburguesa doble",
+                "description": "Pan brioche, 2 carnes artesanales de 200gr , queso,lechuga, tomate, cebolla, pepinillos, salsa de la casa, papas en cascos .",
+                "price": 30000,
+                "icon": "🍔"
+            }
+        ]
+        
+    },
+    {
+        "id": 3,
+        "name": "Carnes",
+        "icon": "🥩",
+        "products": [
+            {
+                "id": "meat-1",
+                "name": "Churrasco",
+                "description": "350 gr acompañado con papa y ensalada.",
+                "price": 45000,
+                "icon": "🥩"
+            },
+            {
+                "id": "meat-2",
+                "name": "Costilla BBQ",
+                "description": "Acompañadas con papa y ensalada.",
+                "price": 32000,
+                "icon": "🍖"
+            },
+            {
+                "id": "meat-3",
+                "name": "Filete de pollo",
+                "description": "Acompañadas con papa y ensalada.",
+                "price": 25000,
+                "icon": "🍗"
+            },
+            {
+                "id": "meat-4",
+                "name": "Filete de cerdo",
+                "description": "Acompañadas con papa y ensalada.",
+                "price": 25000,
+                "icon": "🥩"
+            },
+            {
+                "id": "meat-5",
+                "name": "Chuzo de cerdo",
+                "description": "Acompañadas con papa y arepa.",
+                "price": 16000,
+                "icon": "🍢"
+            },
+            {
+                "id": "meat-6",
+                "name": "Chuzo de pollo",
+                "description": "Acompañadas con papa y arepa.",
+                "price": 16000,
+                "icon": "🍢"
+            },
+            {
+                "id": "meat-7",
+                "name": "Chorizo",
+                "description": "Acompañadas con papa y arepa.",
+                "price": 15000,
+                "icon": "🥩"
+            }
+        ]
+        
+    },
+    {
+        "id": 4,
+        "name": "Picadas",
+        "icon": "🔥",
+        "products": [
+            {
+                "id": "pica-1",
+                "name": "Picada x 2",
+                "description": "450gr de costilla, cerdo, chicharrón, chorizo, arepa, papa y chimicurri.",
+                "price": 45000,
+                "icon": "🥩"
+            },
+            {
+                "id": "pica-2",
+                "name": "Picada x 4 familiar",
+                "description": "1000gr de costilla, cerdo, chorizo, chicharrón, chorizo, papa y arepa.",
+                "price": 82000,
+                "icon": "🥩"
+            },
+            {
+                "id": "pica-3",
+                "name": "Picada al barril x 1",
+                "description": "300gr de bondiola, costilla, panceta, papa y arepa.",
+                "price": 35000,
+                "icon": "🥩"
+            },
+            {
+                "id": "pica-4",
+                "name": "Picada al barril x 2",
+                "description": "650gr depanceta, bondiola, costilla, papa y arepa.",
+                "price": 68000,
+                "icon": "🥩"
+            },
+            {
+                "id": "pica-5",
+                "name": "Picada al barril familiar",
+                "description": "1000gr de panceta, bondiola, costilla, papa y arepa .",
+                "price": 135000,
+                "icon": "🥩"
+            }
+        ]
+        
+    },
+    {
+        "id": 5,
+        "name": "sandwichs",
+        "icon": "🔥",
+        "products": [
+            {
+                "id": "sandwich-1",
+                "name": "Sándwich de Res",
+                "description": "Carne desmechada, queso, lechuga, tomate, papas en cascos.",
+                "price": 25000,
+                "icon": "🥪"
+            },
+            {
+                "id": "sandwich-2",
+                "name": "Sándwich de pollo",
+                "description": "Pollo desmechado, queso, lechuga, tomate, papas en cascos.",
+                "price": 25000,
+                "icon": "🥪"
+            }
+        ]
+        
+    },
+    {
+        "id": 6,
+        "name": "salchipapas",
+        "icon": "🔥",
+        "products": [
+            {
+                "id": "salchi-1",
+                "name": "Salchipapa sencilla",
+                "description": "Salchichas, papa francesa, queso, salsas",
+                "price": 18000,
+                "icon": "🍟"
+            },
+            {
+                "id": "salchi-2",
+                "name": "Salchipapa mixta",
+                "description": "Salchicha,papa francesa , carne deslechada, pollo desmechado, queso.",
+                "price": 26000,
+                "icon": "🍟"
+            }
+        ]
+        
+    },
+    {
+        "id": 7,
+        "name": "Cervezas",
+        "icon": "🍻",
+        "products": [
+            {
+                "id": "Beer-1",
+                "name": "Club colombia dorada",
+                "description": "",
+                "price": 6000,
+                "icon": "🍻"
+            },
+            {
+                "id": "beer-2",
+                "name": "Águila light",
+                "description": "",
+                "price": 6000,
+                "icon": "🍻"
+            },
+            {
+                "id": "beer-3",
+                "name": "Águila Original",
+                "description": "",
+                "price": 6000,
+                "icon": "🍻"
+            },
+            {
+                "id": "beer-4",
+                "name": "Póker",
+                "description": "",
+                "price": 6000,
+                "icon": "🍻"
+            },
+            {
+                "id": "beer-5",
+                "name": "Corona",
+                "description": "",
+                "price": 12000,
+                "icon": "🍻"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bebidas frias",
+        "icon": "🥤",
+        "products": [
+            {
+                "id": "cold-1",
+                "name": "Gaseosa",
+                "description": "",
+                "price": 4000,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-2",
+                "name": "Agua",
+                "description": "",
+                "price": 2500,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-3",
+                "name": "Agua con gas",
+                "description": "",
+                "price": 3000,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-4",
+                "name": "Limonada natural",
+                "description": "",
+                "price": 6000,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-5",
+                "name": "Jugó en agua",
+                "description": "",
+                "price": 7000,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-6",
+                "name": "Jugó en leche",
+                "description": "",
+                "price": 9000,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-7",
+                "name": "Limonada de cereza",
+                "description": "",
+                "price": 8500,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-8",
+                "name": "Tamarindo michelada",
+                "description": "",
+                "price": 6500,
+                "icon": "🥤"
+            },
+            {
+                "id": "cold-9",
+                "name": "Soda michelada",
+                "description": "",
+                "price": 6500,
+                "icon": "🥤"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Bebidas calientes",
+        "icon": "☕",
+        "products": [
+            {
+                "id": "hot-1",
+                "name": "Expresso",
+                "description": "",
+                "price": 4000,
+                "icon": "☕"
+            },
+            {
+                "id": "hot-2",
+                "name": "Americano",
+                "description": "",
+                "price": 4500,
+                "icon": "☕"
+            },
+            {
+                "id": "hot-3",
+                "name": "Campesino",
+                "description": "",
+                "price": 5000,
+                "icon": "☕"
+            },
+            {
+                "id": "hot-4",
+                "name": "Latte",
+                "description": "",
+                "price": 6500,
+                "icon": "☕"
+            },
+            {
+                "id": "hot-5",
+                "name": "Capuccino",
+                "description": "",
+                "price": 7500,
+                "icon": "☕"
+            },
+            {
+                "id": "hot-6",
+                "name": "Aromáticas de frutas",
+                "description": "",
+                "price": 7500,
+                "icon": "☕"
+            }
+        ]
+    }
+]
