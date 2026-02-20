@@ -190,7 +190,7 @@ function renderProducts(categoryId) {
             </div>
             <div class="product-details">
                 <h3 class="product-name-new">${product.name}</h3>
-                <p class="product-description-new">${product.description}</p>
+                ${renderDescription(product.description, product.id)}
                 <p class="product-price-new">${CONFIG.currency}${formatPrice(product.price)}</p>
             </div>
             ${addButton}
@@ -198,6 +198,33 @@ function renderProducts(categoryId) {
 
         menuContainer.appendChild(productItem);
     });
+}
+
+// ============================================
+// DESCRIPCIÓN EXPANDIBLE
+// ============================================
+const DESC_LIMIT = 60; // caracteres visibles antes del "Ver más"
+
+function renderDescription(text, productId) {
+    if (!text || text.length <= DESC_LIMIT) {
+        return `<p class="product-description-new">${text || ''}</p>`;
+    }
+    const short = text.slice(0, DESC_LIMIT).trimEnd();
+    return `
+        <p class="product-description-new desc-collapsible" id="desc-${productId}">
+            <span class="desc-short">${short}<span class="desc-ellipsis">... </span><button class="desc-toggle" onclick="toggleDesc('${productId}')">Ver más</button></span>
+            <span class="desc-full" hidden>${text} <button class="desc-toggle" onclick="toggleDesc('${productId}')">Ver menos</button></span>
+        </p>`;
+}
+
+function toggleDesc(productId) {
+    const container = document.getElementById(`desc-${productId}`);
+    if (!container) return;
+    const short = container.querySelector('.desc-short');
+    const full = container.querySelector('.desc-full');
+    const isCollapsed = !full.hidden;
+    short.hidden = !isCollapsed;
+    full.hidden = isCollapsed;
 }
 
 // ============================================
