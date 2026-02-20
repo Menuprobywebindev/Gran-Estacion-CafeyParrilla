@@ -203,7 +203,7 @@ function renderProducts(categoryId) {
 // ============================================
 // DESCRIPCIÓN EXPANDIBLE
 // ============================================
-const DESC_LIMIT = 60; // caracteres visibles antes del "Ver más"
+const DESC_LIMIT = 80; // caracteres visibles antes del "Ver más"
 
 function renderDescription(text, productId) {
     if (!text || text.length <= DESC_LIMIT) {
