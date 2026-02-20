@@ -162,7 +162,9 @@ body {
     background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
     transform: translateY(-4px);
     box-shadow: 0 8px 30px rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 0, 0, 0.9);
 }
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -348,9 +350,6 @@ body {
     color: #CCCCCC;
     margin: 0 0 8px 0;
     line-height: 1.4;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .product-price-new {
@@ -1131,6 +1130,3 @@ button:hover,
 .desc-toggle:hover {
     text-decoration: underline;
 }
-
-
-
